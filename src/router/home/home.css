@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .parentSH {
+    max-width: 1440px;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .navigator {
+    width: 1440px;
+    height: 50px;
+    border: 2px solid;
+    margin-top: 50px;
+    display: flex;
+  }
+  
+  .navigator nav {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    margin-left: 250px;
+    margin-top: 10px;
+  }
+  
+  .navigator nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    color: rgb(115, 115, 118);
+  }
+  .navigator nav li a:hover{
+    color: black;
+  }
+  
+  .danna {
+    width: 200px;
+    height: 30px;
+    border: 2px solid white;
+    display: flex;
+    gap: 50px;
+    margin-left: 90px;
+  }
+  .imgFirst{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+  }
+  .imgFood{
+    margin-top: 50px;
+    display: flex;
+    gap: 80px;
+    margin-left: 30px;
+  }
+
+  .imgFoot{
+    margin-top: 50px;
+    display: flex;
+    gap: 80px;
+    margin-left: 30px;
+  }
+
+  input::placeholder {
+    color: gray;
+    padding-left: 20px;
+    font-size: 18px;
+    opacity: 0.8; 
+}
+
+.box nav a {
+  text-decoration: none;
+  color: black;
+  
+}
